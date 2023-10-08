@@ -1,0 +1,16 @@
+scalar DateTime
+
+type User {
+    id: Int!
+    fullname: String!
+    email: String!
+    bio: String
+    image: String
+    password: String!
+    createdAt: DateTime!
+    updatedAt: DateTime!
+}
+
+type Query {
+    sayHello: String!
+}
