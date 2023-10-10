@@ -43,6 +43,18 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+# generate PrismaClient
+$ prisma:generate
+
+# generate classes from *.graphql
+$ gen-typings
+
+# delete data in db and insert preset one
+$ npx prisma db seed
+
+# start web database viewer
+$ npx prisma studio
 ```
 
 ## Test
